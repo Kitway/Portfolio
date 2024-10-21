@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>
+			Responsive 3D Personal Portfolio Website Using HTML CSS & JavaScript |
+			Codehal
+		</title>
+		<!-- Boxicons link -->
+		<link
+			href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+			rel="stylesheet"
+		/>
+		<!-- CSS file link -->
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body>
+		<!-- navbar -->
+		<nav class="nav">
+			<ul class="nav-list">
+				<li class="active">
+					<i class="bx bx-home-alt"></i>
+					<span class="tooltip">Home</span>
+				</li>
+				<li>
+					<i class="bx bx-user"></i>
+					<span class="tooltip">About</span>
+				</li>
+				<li>
+					<i class="bx bx-detail"></i>
+					<span class="tooltip">Resume</span>
+				</li>
+				<li>
+					<i class="bx bx-briefcase"></i>
+					<span class="tooltip">Portfolio</span>
+				</li>
+				<li>
+					<i class="bx bx-envelope"></i>
+					<span class="tooltip">Contact</span>
+				</li>
+			</ul>
+		</nav>
+
+		<div class="container">
+			<div class="box">
+				<!-- home section -->
+				<section class="section home active">
+					<div class="home-info">
+						<h3>Cześć, tu</h3>
+						<h1>PrzemDev</h1>
+						<h3>Web Developer</h3>
+						<p class="desc">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							Doloremque quidem veniam quasi expedita nesciunt ipsam voluptate
+							atque tempore labore provident aliquam porro libero autem
+							reiciendis eius hic, esse maxime. Consequatur!
+						</p>
+						<div class="btn-sci">
+							<a href="#" class="btn">Pobierz CV</a>
+							<div class="sci">
+								<a href="#">
+									<i class="bx bxl-github"></i>
+									<span class="tooltip">Github</span>
+								</a>
+								<a href="#">
+									<i class="bx bxl-linkedin"></i>
+									<span class="tooltip">Linkedin</span>
+								</a>
+								<a href="#">
+									<i class="bx bxl-twitter"></i>
+									<span class="tooltip">Twitter</span>
+								</a>
+								<a href="#">
+									<i class="bx bxl-youtube"></i>
+									<span class="tooltip">YouTube</span>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="img-wrapper">
+						<div class="img-box home-img">
+							<img src="images/img.png" alt="My photo" />
+						</div>
+					</div>
+				</section>
+
+				<!-- about section -->
+				<section class="section about">
+					<div class="img-wrapper">
+						<div class="img-box home-img">
+							<img src="images/img.png" alt="My photo" />
+						</div>
+					</div>
+
+					<div class="about-info">
+						<h2 class="title">O Mnie</h2>
+						<h3>Web Developer!</h3>
+						<p class="desc">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo
+							beatae sint quod vel, neque ullam dolore, explicabo assumenda
+							veritatis animi corrupti quis, excepturi placeat sequi voluptate
+							reiciendis! Numquam, totam! At.
+						</p>
+						<a href="#" class="btn">Zobacz więcej</a>
+					</div>
+				</section>
+
+				<!-- resume (experience, skills, education) section -->
+				<section class="section resume">
+					<h2 class="title">Resume</h2>
+					<div class="tab-box">
+						<div class="tab-list resume-list active">
+							<h3>Experience</h3>
+						</div>
+						<div class="tab-list resume-list">
+							<h3>Skills</h3>
+						</div>
+						<div class="tab-list resume-list">
+							<h3>Education</h3>
+						</div>
+					</div>
+					<div class="tab-wrapper">
+						<div class="tab-grid resume-box experience active">
+							<div class="tab-item resume-item">
+								<h4>2023 - Present</h4>
+								<h4>Web Developer</h4>
+								<h4>Facebook</h4>
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Expedita officiis at labore alias ipsam sint itaque incidunt,
+									hic, modi possimus laboriosam ipsa, blanditiis aperiam.
+									Praesentium facilis numquam possimus eligendi beatae!
+								</p>
+							</div>
+							<div class="tab-item resume-item">
+								<h4>2022 - 2023</h4>
+								<h4>Web Developer</h4>
+								<h4>Instagram</h4>
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Expedita officiis at labore alias ipsam sint itaque incidunt,
+									hic, modi possimus laboriosam ipsa, blanditiis aperiam.
+									Praesentium facilis numquam possimus eligendi beatae!
+								</p>
+							</div>
+							<div class="tab-item resume-item">
+								<h4>2021 - 2022</h4>
+								<h4>Web Developer</h4>
+								<h4>YouTube</h4>
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Expedita officiis at labore alias ipsam sint itaque incidunt,
+									hic, modi possimus laboriosam ipsa, blanditiis aperiam.
+									Praesentium facilis numquam possimus eligendi beatae!
+								</p>
+							</div>
+						</div>
+						<div class="tab-grid resume-box skills">
+							<div class="tab-item resume-item">
+								<i class="bx bxl-html5"></i>
+								<p>HTML5</p>
+							</div>
+							<div class="tab-item resume-item">
+								<i class="bx bxl-css3"></i>
+								<p>CSS3</p>
+							</div>
+							<div class="tab-item resume-item">
+								<i class="bx bxl-javascript"></i>
+								<p>JavaScript</p>
+							</div>
+							<div class="tab-item resume-item">
+								<i class="bx bxl-bootstrap"></i>
+								<p>Bootstrap</p>
+							</div>
+							<div class="tab-item resume-item">
+								<i class="bx bxl-angular"></i>
+								<p>Angular</p>
+							</div>
+							<div class="tab-item resume-item">
+								<i class="bx bxl-nodejs"></i>
+								<p>Node.js</p>
+							</div>
+							<div class="tab-item resume-item">
+								<i class="bx bxl-php"></i>
+								<p>PHP</p>
+							</div>
+							<div class="tab-item resume-item">
+								<i class="bx bxl-postgresql"></i>
+								<p>PostgreSQL</p>
+							</div>
+						</div>
+						<div class="tab-grid resume-box education">
+							<div class="tab-item resume-item">
+								<h4>2024</h4>
+								<h4>Programming Course</h4>
+								<h4>Online Course</h4>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure
+									maxime sapiente repudiandae non aperiam ipsa illo saepe rem
+									doloremque sed, quaerat, rerum corporis labore illum veritatis
+									deserunt delectus accusantium nobis.
+								</p>
+							</div>
+							<div class="tab-item resume-item">
+								<h4>2022-2023</h4>
+								<h4>Web Development Bootcamp</h4>
+								<h4>Online Course Platform</h4>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure
+									maxime sapiente repudiandae non aperiam ipsa illo saepe rem
+									doloremque sed, quaerat, rerum corporis labore illum veritatis
+									deserunt delectus accusantium nobis.
+								</p>
+							</div>
+							<div class="tab-item resume-item">
+								<h4>2020</h4>
+								<h4>Doctor of Engineering</h4>
+								<h4>University</h4>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure
+									maxime sapiente repudiandae non aperiam ipsa illo saepe rem
+									doloremque sed, quaerat, rerum corporis labore illum veritatis
+									deserunt delectus accusantium nobis.
+								</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- portfolio (work, service) section -->
+				<section class="section portfolio">
+					<h2 class="title">Portfolio</h2>
+					<div class="tab-box">
+						<div class="tab-list portfolio-list active">
+							<h3>Moja Praca</h3>
+						</div>
+						<div class="tab-list portfolio-list">
+							<h3>Moje Usługi</h3>
+						</div>
+					</div>
+					<div class="tab-wrapper">
+						<div class="tab-grid portfolio-box work active">
+							<div class="tab-item portfolio-item">
+								<div class="work-img">
+									<img src="images/work1.jpg" alt="My first site" />
+								</div>
+								<div class="work-info">
+									<h4>Frontend Project</h4>
+									<p>
+										Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+										Aliquam laborum, dolorum assumenda explicabo aliquid ex
+										iusto reprehenderit illo dolores praesentium ad iste fugit,
+										totam dignissimos suscipit doloribus voluptatum reiciendis
+										veritatis.
+									</p>
+									<div class="tech-used">
+										<p>HTML5, CSS3, JavaScript</p>
+									</div>
+									<div class="portfolio-icon work-icon">
+										<a href="#">
+											<i class="bx bx-arrow-back"></i>
+											<span class="tooltip">Preview</span>
+										</a>
+										<a href="#">
+											<i class="bx bxl-github"></i>
+											<span class="tooltip">Github Repository</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="tab-item portfolio-item">
+								<div class="work-img">
+									<img src="images/work2.jpg" alt="My first site" />
+								</div>
+								<div class="work-info">
+									<h4>Frontend Project</h4>
+									<p>
+										Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+										Aliquam laborum, dolorum assumenda explicabo aliquid ex
+										iusto reprehenderit illo dolores praesentium ad iste fugit,
+										totam dignissimos suscipit doloribus voluptatum reiciendis
+										veritatis.
+									</p>
+									<div class="tech-used">
+										<p>HTML5, CSS3, JavaScript</p>
+									</div>
+									<div class="portfolio-icon work-icon">
+										<a href="#">
+											<i class="bx bx-arrow-back"></i>
+											<span class="tooltip">Preview</span>
+										</a>
+										<a href="#">
+											<i class="bx bxl-github"></i>
+											<span class="tooltip">Github Repository</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="tab-item portfolio-item">
+								<div class="work-img">
+									<img src="images/work3.jpg" alt="My first site" />
+								</div>
+								<div class="work-info">
+									<h4>Frontend Project</h4>
+									<p>
+										Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+										Aliquam laborum, dolorum assumenda explicabo aliquid ex
+										iusto reprehenderit illo dolores praesentium ad iste fugit,
+										totam dignissimos suscipit doloribus voluptatum reiciendis
+										veritatis.
+									</p>
+									<div class="tech-used">
+										<p>HTML5, CSS3, JavaScript</p>
+									</div>
+									<div class="portfolio-icon work-icon">
+										<a href="#">
+											<i class="bx bx-arrow-back"></i>
+											<span class="tooltip">Preview</span>
+										</a>
+										<a href="#">
+											<i class="bx bxl-github"></i>
+											<span class="tooltip">Github Repository</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="tab-item portfolio-item">
+								<div class="work-img">
+									<img src="images/work4.jpg" alt="My first site" />
+								</div>
+								<div class="work-info">
+									<h4>Frontend Project</h4>
+									<p>
+										Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+										Aliquam laborum, dolorum assumenda explicabo aliquid ex
+										iusto reprehenderit illo dolores praesentium ad iste fugit,
+										totam dignissimos suscipit doloribus voluptatum reiciendis
+										veritatis.
+									</p>
+									<div class="tech-used">
+										<p>HTML5, CSS3, JavaScript</p>
+									</div>
+									<div class="portfolio-icon work-icon">
+										<a href="#">
+											<i class="bx bx-arrow-back"></i>
+											<span class="tooltip">Preview</span>
+										</a>
+										<a href="#">
+											<i class="bx bxl-github"></i>
+											<span class="tooltip">Github Repository</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="tab-item portfolio-item">
+								<div class="work-img">
+									<img src="images/work5.jpg" alt="My first site" />
+								</div>
+								<div class="work-info">
+									<h4>Frontend Project</h4>
+									<p>
+										Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+										Aliquam laborum, dolorum assumenda explicabo aliquid ex
+										iusto reprehenderit illo dolores praesentium ad iste fugit,
+										totam dignissimos suscipit doloribus voluptatum reiciendis
+										veritatis.
+									</p>
+									<div class="tech-used">
+										<p>HTML5, CSS3, JavaScript</p>
+									</div>
+									<div class="portfolio-icon work-icon">
+										<a href="#">
+											<i class="bx bx-arrow-back"></i>
+											<span class="tooltip">Preview</span>
+										</a>
+										<a href="#">
+											<i class="bx bxl-github"></i>
+											<span class="tooltip">Github Repository</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="tab-item portfolio-item">
+								<div class="work-img">
+									<img src="images/work6.jpg" alt="My first site" />
+								</div>
+								<div class="work-info">
+									<h4>Frontend Project</h4>
+									<p>
+										Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+										Aliquam laborum, dolorum assumenda explicabo aliquid ex
+										iusto reprehenderit illo dolores praesentium ad iste fugit,
+										totam dignissimos suscipit doloribus voluptatum reiciendis
+										veritatis.
+									</p>
+									<div class="tech-used">
+										<p>HTML5, CSS3, JavaScript</p>
+									</div>
+									<div class="portfolio-icon work-icon">
+										<a href="#">
+											<i class="bx bx-arrow-back"></i>
+											<span class="tooltip">Preview</span>
+										</a>
+										<a href="#">
+											<i class="bx bxl-github"></i>
+											<span class="tooltip">Github Repository</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="tab-grid portfolio-box service">
+							<div class="tab-item portfolio-item">
+								<div class="portfolio-icon service-icon">
+									<i class="bx bx-code-alt icon"></i>
+									<a href="#"><i class="bx bx-arrow-back"></i></a>
+								</div>
+								<h4>Web Development</h4>
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+									mollitia eaque dolores aut! Facilis soluta minus asperiores
+									provident. Eveniet aliquid adipisci magni quae. Itaque
+									reiciendis, eaque repudiandae nam magnam soluta!
+								</p>
+							</div>
+							<div class="tab-item portfolio-item">
+								<div class="portfolio-icon service-icon">
+									<i class="bx bx-palette icon"></i>
+									<a href="#"><i class="bx bx-arrow-back"></i></a>
+								</div>
+								<h4>Graphic Design</h4>
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+									mollitia eaque dolores aut! Facilis soluta minus asperiores
+									provident. Eveniet aliquid adipisci magni quae. Itaque
+									reiciendis, eaque repudiandae nam magnam soluta!
+								</p>
+							</div>
+							<div class="tab-item portfolio-item">
+								<div class="portfolio-icon service-icon">
+									<i class="bx bxs-paint icon"></i>
+									<a href="#"><i class="bx bx-arrow-back"></i></a>
+								</div>
+								<h4>UI/UX Design</h4>
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+									mollitia eaque dolores aut! Facilis soluta minus asperiores
+									provident. Eveniet aliquid adipisci magni quae. Itaque
+									reiciendis, eaque repudiandae nam magnam soluta!
+								</p>
+							</div>
+							<div class="tab-item portfolio-item">
+								<div class="portfolio-icon service-icon">
+									<i class="bx bx-signal-5 icon"></i>
+									<a href="#"><i class="bx bx-arrow-back"></i></a>
+								</div>
+								<h4>SEO</h4>
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+									mollitia eaque dolores aut! Facilis soluta minus asperiores
+									provident. Eveniet aliquid adipisci magni quae. Itaque
+									reiciendis, eaque repudiandae nam magnam soluta!
+								</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- contact section -->
+				<section class="section contact active">
+					<h2 class="title">Contact</h2>
+					<div class="contact-wrapper">
+						<form action="" class="contact-form">
+							<h3>Let's Work Tohether!</h3>
+							<div class="field-box">
+								<input type="text" placeholder="Full Name" required />
+								<input type="email" placeholder="Email Address" required />
+								<input type="text" placeholder="Phone Number" required />
+								<input type="text" placeholder="Email Subject" required />
+								<textarea
+									name=""
+									id=""
+									placeholder="Your Message"
+									required
+								></textarea>
+							</div>
+							<div class="contact-btn">
+								<button type="submit" class="btn">Send Message</button>
+							</div>
+						</form>
+					</div>
+				</section>
+
+				<!-- JavaScript file script -->
+				<script src="script.js"></script>
+			</div>
+		</div>
+	</body>
+</html>
